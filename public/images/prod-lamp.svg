@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#FAF8F4" />
+      <stop offset="100%" stop-color="#EDEAE2" />
+    </radialGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#196477" />
+      <stop offset="100%" stop-color="#0B3B47" />
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D7A459" />
+      <stop offset="50%" stop-color="#F1CD8D" />
+      <stop offset="100%" stop-color="#B07A33" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF2CC" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFF2CC" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)" />
+  <ellipse cx="400" cy="645" rx="185" ry="26" fill="#1F2937" fill-opacity="0.12" />
+  <ellipse cx="475" cy="430" rx="170" ry="120" fill="url(#glow)" />
+  <!-- Weighted Base -->
+  <ellipse cx="320" cy="625" rx="115" ry="22" fill="url(#teal)" />
+  <rect x="205" y="610" width="230" height="16" rx="8" fill="#0B3B47" />
+  <ellipse cx="320" cy="610" rx="115" ry="18" fill="#175D6E" />
+  <circle cx="365" cy="609" r="9" fill="url(#brass)" />
+  <!-- Stem & Brass Hinge -->
+  <path d="M312 610 L262 315 L284 311 L334 610 Z" fill="url(#teal)" />
+  <circle cx="272" cy="312" r="18" fill="url(#brass)" />
+  <circle cx="272" cy="312" r="8" fill="#7D541E" />
+  <!-- Cantilever Arm -->
+  <path d="M272 302 L485 218 L494 238 L280 322 Z" fill="url(#teal)" />
+  <circle cx="486" cy="228" r="14" fill="url(#brass)" />
+  <!-- Shade -->
+  <path d="M420 265 C430 220 535 210 562 255 L580 320 L404 320 Z" fill="url(#teal)" />
+  <ellipse cx="492" cy="320" rx="88" ry="16" fill="#FDE68A" />
+  <ellipse cx="492" cy="322" rx="76" ry="11" fill="#FEF9C3" />
+</svg>

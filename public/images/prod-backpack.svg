@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FAF8F4" />
+      <stop offset="100%" stop-color="#EDEAE2" />
+    </radialGradient>
+    <linearGradient id="pack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A5751" />
+      <stop offset="100%" stop-color="#2E3833" />
+    </linearGradient>
+    <linearGradient id="leather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A86234" />
+      <stop offset="100%" stop-color="#763F1C" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)" />
+  <ellipse cx="400" cy="662" rx="190" ry="26" fill="#1F2937" fill-opacity="0.14" />
+  <!-- Top Leather Handle -->
+  <path d="M350 175 C350 130 450 130 450 175" stroke="url(#leather)" stroke-width="22" stroke-linecap="round" />
+  <!-- Side Strap Hint -->
+  <path d="M235 280 C205 330 205 510 245 595" stroke="#252D29" stroke-width="26" stroke-linecap="round" />
+  <!-- Main Pack Body -->
+  <rect x="242" y="175" width="316" height="470" rx="58" fill="url(#pack)" />
+  <!-- Top Flap Seam -->
+  <path d="M242 295 Q400 325 558 295" stroke="#252D29" stroke-width="5" />
+  <path d="M244 265 Q400 292 556 265" stroke="#5E6E66" stroke-width="2" stroke-dasharray="6 6" />
+  <!-- Front Zippered Pocket -->
+  <rect x="274" y="385" width="252" height="190" rx="28" fill="#3B4741" stroke="#28312C" stroke-width="3" />
+  <line x1="296" y1="420" x2="504" y2="420" stroke="#1E2521" stroke-width="6" stroke-linecap="round" />
+  <rect x="478" y="416" width="22" height="10" rx="3" fill="#B57B48" />
+  <!-- Leather Lash Patch & Buckle Straps -->
+  <rect x="378" y="328" width="44" height="32" rx="6" fill="url(#leather)" />
+  <rect x="387" y="335" width="26" height="18" rx="3" stroke="#532B11" stroke-width="3" />
+  <!-- Leather Base -->
+  <path d="M242 585 H558 V605 C558 632 536 648 508 648 H292 C264 648 242 632 242 605 Z" fill="url(#leather)" />
+</svg>
